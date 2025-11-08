@@ -27,7 +27,7 @@ export default function RootLayout() {
 	<h1>Hello</h1>
 	<title>Neon Demo</title>
 	 <button onClick={call}>Click</button>
-	<p>Thanks</p>
+<p>Thanks</p>
 	 </body>
 </html>
   )
