@@ -13,10 +13,13 @@
     "@prisma/adapter-neon": "^6.19.0",
     "@prisma/client": "^6.19.0",
     "dotenv": "^17.2.3",
+    "next": "^16.0.1",
     "ws": "^8.18.3"
   },
   "devDependencies": {
+    "@types/react": "19.2.2",
     "@types/ws": "^8.18.1",
-    "bufferutil": "^4.0.9"
+    "bufferutil": "^4.0.9",
+    "typescript": "5.9.3"
   }
 }
