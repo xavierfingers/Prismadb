@@ -1,3 +1,5 @@
-[00:00:02.130] Server  LOG      ✓ Ready in 1354ms
-[00:00:05.377] Server  LOG      ○ Compiling /_not-found/page ...
-[00:00:08.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.344] Server  LOG      ✓ Ready in 2.3s
+[00:00:06.893] Server  LOG      ○ Compiling /_not-found/page ...
+[00:00:10.873] Server  ERROR    ⨯ NeonDbError: relation "post" does not exist
+[00:00:10.927] Server  ERROR    ⨯ NeonDbError: relation "post" does not exist
+[00:00:14.820] Browser ERROR   uncaughtError: NeonDbError: relation "post" does not exist

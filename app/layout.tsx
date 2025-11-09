@@ -1,7 +1,17 @@
-// index.js
+// layout.tsx
 import { PrismaClient } from '@prisma/client';
-const prisma = new PrismaClient()
+import { neon } from '@neondatabase/serverless';
+const sql = neon(process.env.DATABASE_URL);
+const [d] = await sql`CREATE TABLE able(id int, name varchar(255), age int);`
+async function database(ref: Request, ctx: any) {
+	const postId = parseInt(new URL(req.url).searchParams.get('postId'))
+          if(postId === NaN) {
+	 return new DOMException('400 Bad request');
+	}
+}
+	const prisma = new PrismaClient()
 async function main() {
+     database();
   const newPost = await prisma.post.create({
     data: {
       title: 'Integrating Neon',
@@ -26,7 +36,6 @@ export default function RootLayout() {
 	 <body>
 	<h1>Hello</h1>
 	<title>Neon Demo</title>
-	 <button onClick={call}>Click</button>
 <p>Thanks</p>
 	 </body>
 </html>

@@ -12,8 +12,11 @@
     "@neondatabase/serverless": "^1.0.2",
     "@prisma/adapter-neon": "^6.19.0",
     "@prisma/client": "^6.19.0",
+    "@stackframe/init-stack": "^2.8.49",
+    "bun": "^1.3.2",
     "dotenv": "^17.2.3",
     "next": "^16.0.1",
+    "oauth4webapi": "^3.8.2",
     "ws": "^8.18.3"
   },
   "devDependencies": {
