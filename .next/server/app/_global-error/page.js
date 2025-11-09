@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/c6e70_b5abd841._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e88aa573._.js")
+R.c("server/chunks/ssr/c6e70_next_dist_16b1dd98._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__393b4126._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__21cb5243._.js")
+R.c("server/chunks/ssr/c6e70_1749dd16._.js")
+R.c("server/chunks/ssr/prisma-db__next-internal_server_app__global-error_page_actions_422e7b0f.js")
+R.m(56825)
+module.exports=R.m(56825).exports

@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/c6e70_next_dist_client_components_builtin_unauthorized_5c730834.js")
+R.c("server/chunks/ssr/[root-of-the-server]__e88aa573._.js")
+R.c("server/chunks/ssr/prisma-db_0c7abef9._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__393b4126._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__21cb5243._.js")
+R.c("server/chunks/ssr/c6e70_1749dd16._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__df7030ab._.js")
+R.c("server/chunks/ssr/c6e70_next_dist_client_components_7948c233._.js")
+R.c("server/chunks/ssr/c6e70_next_dist_client_components_builtin_forbidden_37eaa180.js")
+R.c("server/chunks/ssr/prisma-db__next-internal_server_app__not-found_page_actions_0aa259de.js")
+R.m(37448)
+module.exports=R.m(37448).exports
